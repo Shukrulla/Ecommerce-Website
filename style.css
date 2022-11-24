@@ -62,6 +62,10 @@ header {
     padding:20px;
     background:var(--bg-color);
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition:0.3s;
+}
+.cart.active {
+    right: 0;
 }
 .cart-title{
     text-align: center;
@@ -127,6 +131,17 @@ header {
     color: var(--bg-color);
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    background: var(--text-color);
+}
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size:2rem;
+    color: var(--text-color);
     cursor: pointer;
 }
 .section-title {
